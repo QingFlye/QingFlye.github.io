@@ -1,4 +1,4 @@
-title:            QingFlye's blog
+title:            青青flye's blog
 description:      青青flye的前端技术博客,换用github了哦
 disqus_shortname: QingFlye
 reading_time:     true
@@ -10,7 +10,7 @@ url:             http://qingflye.github.io/
 owner:
   name:           张平
   avatar:         avatar.png
-  bio:            "喜欢中国风，热爱大前端"
+  bio:            "要么平平淡淡混迹人间，要么轰轰烈烈勇往直前"
   email:          hacke2@qq.com
   # Social networking links used in footer. Update and remove as you like.
   douban:
@@ -25,27 +25,82 @@ owner:
   # google plus id, include the '+', eg +mmistakes
   google_plus:    +yourid
 
-# Background image to be tiled on all pages
-background: 
-
-# Analytics and webmaster tools stuff goes here
-google_analytics:   
-google_verify:      
-# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:         
-
-# Links to include in top navigation
-# For external links add external: true
+# Links to include in footer navigation
 links:
-#  - title: Theme Setup
-#    url: /theme-setup
-  - title: Works
-    url: http://qingflye.github.io/works
-    external: true
-  - title: GitHub
-    url: https://github.com/QingFlye
-    external: true
-    
+  - title: 学习资料
+    links:
+      - url: http://www.baidu.com
+        title: 百度
+      - url: http://www.baidu.com
+        title: 百度
+      - url: http://www.baidu.com
+        title: 百度
+      - url: http://www.baidu.com
+        title: 百度
+      - url: http://www.baidu.com
+        title: 百度
+      - url: http://www.baidu.com
+        title: 百度
+
+  - title: 学习资料
+    links:
+      - url: http://www.baidu.com
+        title: 百度
+      - url: http://www.baidu.com
+        title: 百度
+      - url: http://www.baidu.com
+        title: 百度
+      - url: http://www.baidu.com
+        title: 百度
+      - url: http://www.baidu.com
+        title: 百度
+      - url: http://www.baidu.com
+        title: 百度
+
+  - title: 学习资料
+    links:
+      - url: http://www.baidu.com
+        title: 百度
+      - url: http://www.baidu.com
+        title: 百度
+      - url: http://www.baidu.com
+        title: 百度
+      - url: http://www.baidu.com
+        title: 百度
+      - url: http://www.baidu.com
+        title: 百度
+      - url: http://www.baidu.com
+        title: 百度
+
+  - title: 学习资料
+    links:
+      - url: http://www.baidu.com
+        title: 百度
+      - url: http://www.baidu.com
+        title: 百度
+      - url: http://www.baidu.com
+        title: 百度
+      - url: http://www.baidu.com
+        title: 百度
+      - url: http://www.baidu.com
+        title: 百度
+      - url: http://www.baidu.com
+        title: 百度
+
+  - title: 学习资料
+    links:
+      - url: http://www.baidu.com
+        title: 百度
+      - url: http://www.baidu.com
+        title: 百度
+      - url: http://www.baidu.com
+        title: 百度
+      - url: http://www.baidu.com
+        title: 百度
+      - url: http://www.baidu.com
+        title: 百度
+      - url: http://www.baidu.com
+        title: 百度
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    America/New_York
@@ -57,7 +112,7 @@ markdown:    kramdown
 permalink:   /:categories/:title/
 
 # Amount of post to show on home page
-paginate: 5
+paginate: 10
 
 kramdown:
   auto_ids: true
