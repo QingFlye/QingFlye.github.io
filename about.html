@@ -1,0 +1,57 @@
+---
+layout:
+title: 关于
+description: "hacke2的前端技术博客,分享自己的技术心得,积累前段技能,汇聚前端之路的点点滴滴。"
+tags: [青青flye, blog, 青青flye blog, 前端技术, javascript,css]
+---
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+{% include head.tpl %}
+<link rel="stylesheet" href="{{ site.url }}/asset/css/about.css"/>
+</head>
+<body>
+{% include header.tpl %}
+<main class="wrapper clearfix">
+    <img src="{{ site.url }}/images/{{ site.owner.avatar }}" width="172" height="172" alt="头像">
+    <section class="avatar-detail clearfix">
+        <h1>{{ site.owner.name }}</h1>
+        <p>{{ site.owner.bio }}</p>
+    </section>
+    <img class="call" src="img/avatar.png" alt=""/>
+    <section class="call-detail">
+        <h1>联系方式</h1>
+        <ul>
+            {% for contact in site.owner.contact %}
+            <li>{{ contact.title }}：{{ contact.value }}</li>
+            {% endfor %}
+        </ul>
+    </section>
+    <img class="edu" src="img/avatar.png" alt=""/>
+    <section class="edu-detail">
+        <h1>教育经历</h1>
+        <ul>
+            {% for edu in site.owner.edu %}
+            <li class="clearfix">
+                <h2>{{ edu.time }}</h2>
+                <p>{{ edu.title }}</p>
+            </li>
+            {% endfor %}
+        </ul>
+    </section>
+    <img class="job" src="img/avatar.png" alt=""/>
+    <section class="job-detail">
+        <h1>实习经历</h1>
+        <ul>
+            {% for job in site.owner.job %}
+            <li class="clearfix">
+                <h2>{{ job.time }}</h2>
+                <p>{{ job.title }}</p>
+            </li>
+            {% endfor %}
+        </ul>
+    </section>
+</main>
+{% include footer.tpl %}
+</body>
+</html>

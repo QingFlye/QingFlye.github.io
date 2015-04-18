@@ -11,19 +11,32 @@ owner:
   name:           张平
   avatar:         avatar.png
   bio:            "要么平平淡淡混迹人间，要么轰轰烈烈勇往直前"
-  email:          hacke2@qq.com
-  # Social networking links used in footer. Update and remove as you like.
-  douban:
-  zhihu:
-  github:         
-  stackexchange:  
-  linkedin:       
-  instagram:      
-  flickr:         
-  tumblr:         
-  # For Google Authorship https://plus.google.com/authorship
-  # google plus id, include the '+', eg +mmistakes
-  google_plus:    +yourid
+  contact:
+    - title:       QQ
+      url:        http://www.zhihu.com/people/qing-qing-flye-91
+    - title:       知乎
+      url:        http://www.zhihu.com/people/qing-qing-flye-91
+    - title:       知乎
+      url:       http://www.zhihu.com/people/qing-qing-flye-91
+    - title:       知乎
+      url:        http://www.zhihu.com/people/qing-qing-flye-91
+    - title:       知乎
+      url:        http://www.zhihu.com/people/qing-qing-flye-91
+  edu:
+    - time:       2012
+      title:      湖南大学
+    - time:       2012
+      title:      湖南大学
+    - time:       2012
+      title:      湖南大学
+
+  job:
+    - time:       2012
+      title:      湖南大学
+    - time:       2012
+      title:      湖南大学
+    - time:       2012
+      title:      湖南大学
 
 # Links to include in footer navigation
 links:
