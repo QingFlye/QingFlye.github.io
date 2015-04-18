@@ -33,6 +33,18 @@ main {
     margin: 0 auto 20px;
 }
 
+.call {
+    background: url(img/call.png);
+}
+
+.job {
+    background: url(img/job.png);
+}
+
+.edu {
+    background: url(img/edu.png);
+}
+
 main section h1 {
     margin-left: 360px;
     font-size: 20px;
