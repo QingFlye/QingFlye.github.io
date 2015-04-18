@@ -13,21 +13,21 @@ tags: [青青flye, blog, 青青flye blog, 前端技术, javascript,css]
 <body>
 {% include header.tpl %}
 <main class="wrapper clearfix">
-    <img src="{{ site.url }}/images/{{ site.owner.avatar }}" width="172" height="172" alt="头像">
+    <img class="avatar" src="{{ site.url }}/images/{{ site.owner.avatar }}" width="172" height="172" alt="头像">
     <section class="avatar-detail clearfix">
         <h1>{{ site.owner.name }}</h1>
         <p>{{ site.owner.bio }}</p>
     </section>
-    <img class="call" src="img/avatar.png" alt=""/>
+    <img class="call" src="{{ site.url }}/images/{{ site.owner.avatar }}" width="172" height="172" alt="头像"/>
     <section class="call-detail">
         <h1>联系方式</h1>
         <ul>
             {% for contact in site.owner.contact %}
-            <li>{{ contact.title }}：{{ contact.value }}</li>
+            <li>{{ contact.title }}：{{ contact.url }}</li>
             {% endfor %}
         </ul>
     </section>
-    <img class="edu" src="img/avatar.png" alt=""/>
+    <img class="edu" src="{{ site.url }}/images/{{ site.owner.avatar }}" width="172" height="172" alt="头像" />
     <section class="edu-detail">
         <h1>教育经历</h1>
         <ul>
@@ -39,7 +39,7 @@ tags: [青青flye, blog, 青青flye blog, 前端技术, javascript,css]
             {% endfor %}
         </ul>
     </section>
-    <img class="job" src="img/avatar.png" alt=""/>
+    <img class="job" src="{{ site.url }}/images/{{ site.owner.avatar }}" width="172" height="172" alt="头像" />
     <section class="job-detail">
         <h1>实习经历</h1>
         <ul>
