@@ -1,13 +1,9 @@
-# 个人前端博客 http://hacke2.github.io/
+# 个人前端博客 http://QingFlye.github.io/
 
-<a href="https://github.com/hacke2/hpstr-jekyll-theme" >套用hpstr jekyll模板</a>
+参加了百度前端技术学院ife task0001创建了4个页面后，心血来潮，希望把静态页面还原成一个真实的博客网站。
+第一次尝试使用github搭建博客，原来博客地址：http://www.cnblogs.com/QingFlye/
 
-##在以上基础上，做了如下修改：
-
-* 将google cdn换成 baidu cdn 原因你懂的
-* 去掉分享到twitter、facebook等国外社区，加入百度分享
-* 加入百度站长助手，方便您的统计
-* disqus评论
+嘿嘿，感谢您的路过~~~~
 
 <p style="color:red">如果您感觉以上功能对您有帮助，请您下载并点个赞~</a>
 
