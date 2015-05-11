@@ -9,7 +9,7 @@
 
 ####4.工具函数:书写工具函数util.js，JavaScript的常见操作（bind、each等）
 
-####5.css方面：利用LESS库
+####5.css方面：利用LESS预编译
 
 ####6.数据方面：本地数据存储
 
