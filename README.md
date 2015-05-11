@@ -9,7 +9,7 @@
 
 ####4.util.js:一些工具函数，包含JavaScript的常见操作
 
-####5.其他想法：希望继续实现拖曳、撤销删除功能等等
+####5.其他想法：实现单条任务拖曳到分类
 
 正在建设中、、、
 
@@ -18,8 +18,8 @@
 * [JavaScript作用域学习笔记](http://www.cnblogs.com/QingFlye/p/4480166.html)
 * [JavaScript原型学习笔记](http://www.cnblogs.com/QingFlye/p/4480925.html)
 * [JavaScript闭包学习笔记](http://www.cnblogs.com/QingFlye/p/4480952.html)
-* JavaScript构造函数学习笔记（完善中）
-* JavaScript面向对象编程学习笔记（完善中）
+* [JavaScript构造函数学习笔记]（http://www.cnblogs.com/QingFlye/p/4483842.html）
+* [JavaScript面向对象编程学习笔记]（http://www.cnblogs.com/QingFlye/p/4486279.html）
 * JavaScript设计模式学习笔记（完善中）
 * task0003 TODO心得体会（完善中）
 
