@@ -1,7 +1,4 @@
 
-###task0001 Blog：http://QingFlye.github.io/
-task0001心得体会：http://www.cnblogs.com/QingFlye/p/4427698.html
-
 ###task0003 ToDo：http://qingflye.github.io/ToDo/
 说明：
 ####1.学习实践利用mvc设计模式
